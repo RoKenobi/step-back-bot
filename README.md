@@ -1,8 +1,8 @@
-# Guy Detector
+# Step Back Bot
 
 Near-person detection and deterrence for the **AgiBot X2** humanoid robot.
 
-When someone walks up close to the robot, Guy Detector notices, turns the robot
+When someone walks up close to the robot, Step Back Bot notices, turns the robot
 toward them, asks them to step back, and shows their picture on the robot's face
 screen. Every detection is logged as a JSON event.
 
@@ -38,6 +38,9 @@ screen. Every detection is logged as a JSON event.
 | Sensor-primary | enough close depth/LiDAR points, no YOLO needed to trigger | `sensor_primary_detection_enabled: true` |
 
 ## Quick Start
+
+The Python package and commands are still named `guy_detector`,
+`guy-detector-server` and `guy-detector-node`.
 
 Requires Python 3.10+ and [uv](https://docs.astral.sh/uv/).
 

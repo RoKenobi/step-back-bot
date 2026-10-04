@@ -1,6 +1,6 @@
 # Deployment Guide
 
-This guide walks through running Guy Detector on an AgiBot X2 with a separate
+This guide walks through running Step Back Bot on an AgiBot X2 with a separate
 GPU machine doing YOLO inference. Replace `<detector-host>` and `<robot-host>`
 with the addresses on your network.
 
