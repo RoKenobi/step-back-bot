@@ -1,0 +1,4 @@
+detector_model_path: "models/yolo11s.pt"
+detector_device: "cuda:1"
+detector_confidence_threshold: 0.45
+detector_max_dimension: 640
